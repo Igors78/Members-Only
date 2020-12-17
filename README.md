@@ -4,9 +4,13 @@
 
 ## Summary
 
-In this project, we built an exclusive clubhouse where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
+In this project, we built an exclusive clubhouse where your members can write
+embarrassing posts about non-members. Inside the clubhouse, members can see who
+the author of a post is but, outside, they can only see the story and wonder who
+wrote it.
 
-- This is the second application for the Microverse Ruby on Rails curriculum module
+- This is the second application for the Microverse Ruby on Rails curriculum
+  module
 - [Project Specs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
 
 ### In this project we create a simple Post with Authentication feature to learn the basics of Ruby on Rails including
@@ -22,7 +26,10 @@ In this project, we built an exclusive clubhouse where your members can write em
 
 ## Getting Started
 
-- This app is functional micro post blog with the possibility to create, edit, update and delete posts. To access full functionality, the user should log in, if an account exists, or create one as a new author. The app is connected to the database accordingly.
+- This app is functional micro post blog with the possibility to create, edit,
+  update and delete posts. To access full functionality, the user should log in,
+  if an account exists, or create one as a new author. The app is connected to
+  the database accordingly.
 
 ## On your Computer
 
@@ -41,7 +48,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Go to your preferred directory
 - Run `git clone https://github.com/CornerstoneII/Members-Only.git` command
-- Install Rails with all dependencies in order to run local server and app in it:
+- Install Rails with all dependencies in order to run local server and app in
+  it:
 - `install Rails`
 - `bundle install`
 - `rails db:migrate`
@@ -70,7 +78,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@CornerstoneII](https://github.com/CornerstoneII)
 - Twitter: [@It_Iz_I](https://twitter.com/It_Iz_I)
-- Linkedin: [Oluwaseun Iyadi](https://www.linkedin.com/in/oluwaseun-iyadi-773584b4/)
+- Linkedin:
+  [Oluwaseun Iyadi](https://www.linkedin.com/in/oluwaseun-iyadi-773584b4/)
 
 ## 🤝 Contributing
 
