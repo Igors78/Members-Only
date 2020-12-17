@@ -5,9 +5,13 @@ module ApplicationHelper
 
   def authentic_user
     if user_signed_in?
-      render inline: "Logged in as <strong><%= current_user.email %></strong>.
+      render inline: "
 
-        <%= link_to 'Logout', destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>"
+      Logged in as <strong><%= current_user.email %></strong>.
+
+        <%= link_to 'Logout', destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+
+        "
 
     else
       render inline: "<%= link_to 'Sign up', new_user_registration_path, :class => 'navbar-link'  %> |
@@ -17,9 +21,25 @@ module ApplicationHelper
 
   def anonymous
     if user_signed_in?
-      render inline: '<td><strong> <%= post.user.email %></strong></td>'
+      render inline: '
+      <% @posts.each do |post| %>
+        <tr>
+      <td><strong> <%= post.user.email %></strong></td>
+      <td><%= post.title %></td>
+      <td><%= post.body %></td>
+
+  </tr>
+  <% end %>
+      '
     else
-      render inline: '<td><strong>Anonymous</strong></td>'
+      render inline: '<% @posts.each do |post| %>
+      <tr>
+    <td><strong> Anonymous </strong></td>
+    <td><%= post.title %></td>
+    <td><%= post.body %></td>
+
+</tr>
+<% end %>'
     end
   end
 end
