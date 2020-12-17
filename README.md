@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Authentication
 
 ## Summary
@@ -8,12 +6,14 @@ In this project, we built an exclusive clubhouse where your members can write
 embarrassing posts about non-members. Inside the clubhouse, members can see who
 the author of a post is but, outside, they can only see the story and wonder who
 wrote it.
+![screenshot](screenshot.png)
+![screenshot](screenshot1.png)
 
-- This is the second application for the Microverse Ruby on Rails curriculum
+- This is the application for the Microverse Ruby on Rails curriculum
   module
 - [Project Specs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)
 
-### In this project we create a simple Post with Authentication feature to learn the basics of Ruby on Rails including
+### In this project we create a simple Post service with Authentication feature to learn the basics of Ruby on Rails including
 
 - Models, Views, and Controllers (MVC)
 - Data Structures & Relationships
@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/CornerstoneII/Members-Only.git` command
+- Run `git clone https://github.com/Igors78/Members-Only.git` command
 - Install Rails with all dependencies in order to run local server and app in
   it:
 - `install Rails`
@@ -65,14 +65,15 @@ To get a local copy up and running follow these simple example steps.
 - Ruby 2.7.0
 - Ruby on Rails 6.0.3.4
 - Bootstrap
+- Devise gem
 
 ## Authors
 
 👤 **Igors Oleinikovs**
 
-- GitHub: [@githubhandle](https://github.com/Igors78)
-- Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
+- GitHub: [Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
+- LinkedIn: [Oleinikovs Igors](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 👤 **Oluwaseun Iyadi**
 
