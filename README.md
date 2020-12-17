@@ -26,10 +26,11 @@ wrote it.
 
 ## Getting Started
 
-- This app is functional micro post blog with the possibility to create, edit,
-  update and delete posts. To access full functionality, the user should log in,
-  if an account exists, or create one as a new author. The app is connected to
+- This app is functional micro post blog with the possibility to create and read posts. To access full functionality, the user should log in,
+  if an account exists, or create one as a new user. The app is connected to
   the database accordingly.
+
+  [Live Demo Link](https://only-members.herokuapp.com/)
 
 ## On your Computer
 
